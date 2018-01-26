@@ -190,7 +190,7 @@ production stylesheet in assets/built/urdu.css
 /* 7.5. Floating Header
 /* ---------------------------------------------------------- */
 
-.floating-header-title {
+.floating-header-title.urdu {
   font-size: 1.8em;
   line-height: 1.3em;
   font-weight: normal;
