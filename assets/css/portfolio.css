@@ -1,0 +1,79 @@
+/* Table of Contents
+/* ------------------------------------------------------------
+
+This is a development CSS file which is built to a minified
+production stylesheet in assets/built/screen.css
+
+1.  Global Styles
+2.  Layout
+3.  Special Templates
+4.  Site Header
+5.  Site Navigation
+6.  Post Feed
+7.  Single Post
+  7.1. Subscribe Form
+  7.2. Post Footer
+  7.3. Comments
+  7.4. Related Posts
+  7.5. Floating Header
+8.  Author Template
+9.  Error Template
+10. Subscribe Overlay
+11. Site Footer
+
+*/
+
+
+/* 1. Global - Set up the things
+/* ---------------------------------------------------------- */
+
+
+/* 2. Layout - Page building blocks
+/* ---------------------------------------------------------- */
+
+
+/* 3. Special Template Styles
+/* ---------------------------------------------------------- */
+
+
+/* 4. Site Header
+/* ---------------------------------------------------------- */
+
+
+/* 5. Site Navigation
+/* ---------------------------------------------------------- */
+
+
+/* 6. Post Feed
+/* ---------------------------------------------------------- */
+
+.page-template.page-portfolio .site-main {
+    padding-bottom: 4vw;
+    background: #f4f8fb;
+}
+
+.page-template.page-portfolio .post-feed {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.page-template.page-portfolio .post-card {
+    flex: 0 1 300px;
+    /*display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 20px 40px;
+    min-height: 300px;
+    background: #fff center center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    transition: all 0.5s ease;*/
+}
+
+/* 7. Single Post
+/* ---------------------------------------------------------- */
+
+
+/* 11. Site Footer
+/* ---------------------------------------------------------- */

@@ -1,0 +1,30 @@
+{{!-- skip others except portfolio items --}}
+{{#has tag="Portfolio"}}
+    <article class="post-card {{post_class}}{{#unless feature_image}} no-image{{/unless}}">
+        {{#if feature_image}}
+            <a class="post-card-image-link" href="#modal-{{slug}}">
+                <div class="post-card-image" style="background-image: url({{feature_image}})"></div>
+            </a>
+        {{/if}}
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="#modal-{{slug}}">
+                <header class="post-card-header">
+                    <h2 class="post-card-title {{#has tag="Urdu"}} urdu {{/has}}">{{title}}</h2>
+                </header>
+                <section class="post-card-excerpt {{#has tag="Urdu"}} urdu {{/has}}">
+                    <p>{{excerpt words="30"}}</p>
+                </section>
+            </a>
+        </div>
+    </article>
+    <div id="modal-{{slug}}" class="subscribe-overlay">
+        <a class="subscribe-overlay-close" href="#"></a>
+        <div class="subscribe-overlay-content">
+            {{#if @blog.logo}}
+                <img class="subscribe-overlay-logo" src="{{@blog.logo}}" alt="{{@blog.title}}" />
+            {{/if}}
+            <h1 class="subscribe-overlay-title">{{@title}}</h1>
+            <p class="subscribe-overlay-description">{{content}}</p>
+        </div>
+    </div>
+{{/has}}
