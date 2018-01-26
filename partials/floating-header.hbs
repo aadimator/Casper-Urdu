@@ -7,8 +7,10 @@
             <span>{{@blog.title}}</span>
         </a>
     </div>
-    <span class="floating-header-divider">&mdash;</span>
-    <div class="floating-header-title">{{title}}</div>
+    {{^has tag="Urdu"}}
+        <span class="floating-header-divider">&mdash;</span>
+    {{/has}}
+    <div class="floating-header-title {{#has tag="Urdu"}} urdu {{/has}}">{{title}}</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this {{> "icons/point"}}</div>
         <a class="floating-header-share-tw" href="https://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"

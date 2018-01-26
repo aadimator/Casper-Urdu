@@ -24,7 +24,7 @@ into the {body} of the default.hbs template --}}
                         <span class="date-divider">/</span> <a href="{{url}}">{{name}}</a>
                     {{/primary_tag}}
                 </section>
-                <h1 class="post-full-title {{#has tag="Urdu"}} urdu-fonts post-full-title-urdu {{/has}}">{{title}}</h1>
+                <h1 class="post-full-title {{#has tag="Urdu"}} urdu {{/has}}">{{title}}</h1>
             </header>
 
             {{#if feature_image}}
@@ -32,7 +32,7 @@ into the {body} of the default.hbs template --}}
             </figure>
             {{/if}}
 
-            <section class="post-full-content {{#has tag="Urdu"}} urdu-fonts post-full-title-urdu {{/has}}">
+            <section class="post-full-content {{#has tag="Urdu"}} urdu {{/has}}">
                 {{content}}
             </section>
 
@@ -75,6 +75,8 @@ into the {body} of the default.hbs template --}}
             The only thing you need to change is "test-apkdzgmqhj" - which
             should be replaced with your own Disqus site-id.
 
+            --}}
+
             <section class="post-full-comments">
                 <div id="disqus_thread"></div>
                 <script>
@@ -84,13 +86,13 @@ into the {body} of the default.hbs template --}}
                     };
                     (function() {
                         var d = document, s = d.createElement('script');
-                        s.src = 'https://test-apkdzgmqhj.disqus.com/embed.js';
+                        s.src = 'https://aadimator.disqus.com/embed.js';
                         s.setAttribute('data-timestamp', +new Date());
                         (d.head || d.body).appendChild(s);
                     })();
                 </script>
             </section>
-            --}}
+            
 
         </article>
 
