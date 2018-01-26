@@ -1,0 +1,151 @@
+/* Table of Contents
+/* ------------------------------------------------------------
+
+This is a development CSS file which is built to a minified
+production stylesheet in assets/built/urdu.css
+
+1.  Global Styles
+2.  Urdu Text Font
+3.  Special Templates
+4.  Site Header
+5.  Site Navigation
+6.  Post Feed
+7.  Single Post
+  7.1. Subscribe Form
+  7.2. Post Footer
+  7.3. Comments
+  7.4. Related Posts
+  7.5. Floating Header
+8.  Author Template
+9.  Error Template
+10. Subscribe Overlay
+11. Site Footer
+
+*/
+
+
+/* 1. Global - Set up the things
+/* ---------------------------------------------------------- */
+@import "screen.css";
+
+
+@font-face {
+  font-family: 'MehrNastaliqWeb';
+  src: url('../fonts/MehrNastaliqWeb.eot'),
+       url('../fonts/MehrNastaliqWeb.woff') format('woff'),
+       url('../fonts/MehrNastaliqWeb.woff2') format('woff2'),
+       url('../fonts/MehrNastaliqWeb.ttf') format('truetype'),
+       url('../fonts/MehrNastaliqWeb.svg#MehrNastaliqWeb') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 2. Urdu Text Font - Change Styles
+/* ---------------------------------------------------------- */
+
+.urdu-fonts {
+    font-family: "MehrNastaliqWeb", "Noto Nastaliq", Georgia, serif !important;
+    direction: rtl;
+    text-rendering: auto;
+}
+
+
+.post-full-title-urdu {
+    font-weight: normal;
+    margin-top: 0.5em !important;
+}
+
+
+/* 3. Special Template Styles
+/* ---------------------------------------------------------- */
+
+
+
+/* 4. Site Header
+/* ---------------------------------------------------------- */
+
+
+/* 5. Site Navigation
+/* ---------------------------------------------------------- */
+
+
+
+
+/* 6. Post Feed
+/* ---------------------------------------------------------- */
+
+
+
+
+
+/* 7. Single Post
+/* ---------------------------------------------------------- */
+
+.post-full-content.urdu-fonts blockquote p {
+    font-size: 1em;
+}
+
+.post-full-content.urdu-fonts h1,
+.post-full-content.urdu-fonts h2,
+.post-full-content.urdu-fonts h3,
+.post-full-content.urdu-fonts h4,
+.post-full-content.urdu-fonts h5,
+.post-full-content.urdu-fonts h6 {
+    font-family: "MehrNastaliqWeb", "Jameel Noori Nastaleeq", "Noto Nastaliq", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.post-full-content.urdu-fonts h1,
+.post-full-content.urdu-fonts h2 {
+    font-weight: normal;
+}
+
+.post-full-content.urdu-fonts table {
+    font-family: "MehrNastaliqWeb", "Jameel Noori Nastaleeq", "Noto Nastaliq", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+
+/* 7.1. Subscribe Form
+/* ---------------------------------------------------------- */
+
+
+
+
+/* 7.2. Post Footer
+/* ---------------------------------------------------------- */
+
+
+
+/* 7.3. Comments
+/* ---------------------------------------------------------- */
+
+
+
+
+/* 7.5. Floating Header
+/* ---------------------------------------------------------- */
+
+
+
+
+/* 8. Author Template
+/* ---------------------------------------------------------- */
+
+
+
+
+/* 9. Error Template
+/* ---------------------------------------------------------- */
+
+
+
+
+/* 10. Subscribe Overlay
+/* ---------------------------------------------------------- */
+
+
+
+
+/* 11. Site Footer
+/* ---------------------------------------------------------- */
+

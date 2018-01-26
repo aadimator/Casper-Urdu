@@ -24,7 +24,7 @@ into the {body} of the default.hbs template --}}
                         <span class="date-divider">/</span> <a href="{{url}}">{{name}}</a>
                     {{/primary_tag}}
                 </section>
-                <h1 class="post-full-title">{{title}}</h1>
+                <h1 class="post-full-title {{#has tag="Urdu"}} urdu-fonts post-full-title-urdu {{/has}}">{{title}}</h1>
             </header>
 
             {{#if feature_image}}
@@ -32,7 +32,7 @@ into the {body} of the default.hbs template --}}
             </figure>
             {{/if}}
 
-            <section class="post-full-content">
+            <section class="post-full-content {{#has tag="Urdu"}} urdu-fonts post-full-title-urdu {{/has}}">
                 {{content}}
             </section>
 
