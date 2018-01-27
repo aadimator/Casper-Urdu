@@ -55,6 +55,11 @@ production stylesheet in assets/built/screen.css
 .page-template.page-portfolio .post-feed {
     align-items: flex-start;
     justify-content: center;
+    background: linear-gradient(-135deg, #a951ed 0%, #02ccba 100%);
+    border-radius: 1em;
+    background-position: 100% 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 0.5rem;
 }
 
 .page-template.page-portfolio .post-card {
@@ -78,34 +83,11 @@ production stylesheet in assets/built/screen.css
 /* 10. Portfolio Modal Overlay
 /* ---------------------------------------------------------- */
 
-.portfolio-overlay {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 9000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0,25,40,0.97);
-    opacity: 0;
-    transition: opacity 200ms ease-in;
-    pointer-events: none;
-
-    backdrop-filter: blur(3px);
-}
-
-.portfolio-overlay:target {
-    opacity: 1;
-    pointer-events: auto;
-}
-
 .portfolio-overlay-content {
     position: relative;
     z-index: 9999;
     margin: 8vw 0 5vw 0;
-    padding: 4vw;
+    padding: 2vw;
     color: #fff;
     text-align: flex-start;
     overflow: auto;
@@ -116,13 +98,12 @@ production stylesheet in assets/built/screen.css
 
 
 .page-template.page-portfolio .portfolio-overlay-content.post-card {
-    flex: 0 1 75%;
+    flex: 0 1 100%;
 }
 
 .page-template.page-portfolio .portfolio-overlay-content.post-card .post-card-detail .kg-card-markdown {
     align-items: flex-start;
 }
-
 
 .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-image-link {
     position: relative;
