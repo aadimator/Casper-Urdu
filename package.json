@@ -1,8 +1,8 @@
 {
     "name": "casper-ur",
     "description": "Casper theme with Urdu fonts. Beautiful, minimal and responsive.",
-    "demo": "https://aadimator.herokuapp.com/",
-    "version": "2.1.9",
+    "demo": "https://aadimator.com/",
+    "version": "2.3.3",
     "engines": {
         "ghost": ">=1.2.0"
     },
@@ -10,6 +10,10 @@
     "screenshots": {
         "desktop": "assets/screenshot-desktop.jpg",
         "mobile": "assets/screenshot-mobile.jpg"
+    },
+    "scripts": {
+      "dev": "gulp",
+      "zip": "gulp zip"
     },
     "author": {
         "name": "Aadam",
@@ -40,7 +44,6 @@
         "cssnano": "3.7.1",
         "gulp": "3.9.1",
         "gulp-livereload": "3.8.1",
-        "gulp-nodemon": "2.1.0",
         "gulp-postcss": "6.1.1",
         "gulp-sourcemaps": "1.6.0",
         "gulp-util": "3.0.7",
