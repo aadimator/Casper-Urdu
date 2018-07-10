@@ -98,7 +98,7 @@ production stylesheet in assets/built/screen.css
 
 
 .page-template.page-portfolio .portfolio-overlay-content.post-card {
-    flex: 0 1 100%;
+    flex: 0 1 90%;
 }
 
 .page-template.page-portfolio .portfolio-overlay-content.post-card .post-card-detail .kg-card-markdown {
