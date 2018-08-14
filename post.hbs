@@ -32,8 +32,10 @@ into the {body} of the default.hbs template --}}
             </figure>
             {{/if}}
 
-            <section class="post-full-content {{#has tag="Urdu"}} urdu {{/has}}">
-                {{content}}
+            <section class="post-full-content">
+                <div class="post-content {{#has tag="Urdu"}} urdu {{/has}}">
+                    {{content}}
+                </div>
             </section>
 
             {{!-- Email subscribe form at the bottom of the page --}}
@@ -62,10 +64,6 @@ into the {body} of the default.hbs template --}}
 
             {{!--
             <section class="post-full-comments">
-                If you want to embed comments, this is a good place to do it!
-            </section>
-            --}}
-            <section class="post-full-comments">
                 <div id="disqus_thread"></div>
                 <script>
                     var disqus_config = function () {
@@ -80,6 +78,7 @@ into the {body} of the default.hbs template --}}
                     })();
                 </script>
             </section>
+            --}}
 
         </article>
 
@@ -156,7 +155,7 @@ $(document).ready(function () {
     $postContent.fitVids();
     // End fitVids
 
-    var progressBar = document.querySelector('progress');
+    var progressBar = document.querySelector('#reading-progress');
     var header = document.querySelector('.floating-header');
     var title = document.querySelector('.post-full-title');
 

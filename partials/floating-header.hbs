@@ -7,9 +7,7 @@
             <span>{{@blog.title}}</span>
         </a>
     </div>
-    {{^has tag="Urdu"}}
-        <span class="floating-header-divider">&mdash;</span>
-    {{/has}}
+    <span class="floating-header-divider">&mdash;</span>
     <div class="floating-header-title {{#has tag="Urdu"}} urdu {{/has}}">{{title}}</div>
     <div class="floating-header-share">
         <div class="floating-header-share-label">Share this {{> "icons/point"}}</div>
@@ -22,7 +20,7 @@
             {{> "icons/facebook"}}
         </a>
     </div>
-    <progress class="progress" value="0">
+    <progress id="reading-progress" class="progress" value="0">
         <div class="progress-container">
             <span class="progress-bar"></span>
         </div>
