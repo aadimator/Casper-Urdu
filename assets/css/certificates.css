@@ -61,12 +61,12 @@ production stylesheet in assets/built/screen.css
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
 
-.page-template.page-portfolio .site-main {
+.page-template.page-certificates .site-main {
     padding-bottom: 4vw;
     background: #f4f8fb;
 }
 
-.page-template.page-portfolio .post-feed {
+.page-template.page-certificates .post-feed {
     align-items: flex-start;
     justify-content: center;
     background: linear-gradient(-135deg, #a951ed 0%, #02ccba 100%);
@@ -76,23 +76,14 @@ production stylesheet in assets/built/screen.css
     background-size: 100% 0.5rem;
 }
 
-.page-template.page-portfolio .post-card {
+.page-template.page-certificates .post-card {
     flex: 0 1 300px;
-    /*display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    margin: 0 20px 40px;
-    min-height: 300px;
-    background: #fff center center;
-    background-size: cover;
-    border-radius: 5px;
-    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
-    transition: all 0.5s ease;*/
 }
 
-.page-template.page-portfolio .post-card-tags {
-    color: color(var(--green) l(-25%));
+.page-template.page-certificates .post-card-tags {
+    color: color(var(--blue) l(-15%));
 }
+
 
 /* 7. Single Post
 /* ---------------------------------------------------------- */
@@ -115,65 +106,65 @@ production stylesheet in assets/built/screen.css
 }
 
 
-.page-template.page-portfolio .portfolio-overlay-content.post-card {
+.page-template.page-certificates .portfolio-overlay-content.post-card {
     flex: 0 1 90%;
 }
 
-.page-template.page-portfolio .portfolio-overlay-content.post-card .post-card-detail .kg-card-markdown {
+.page-template.page-certificates .portfolio-overlay-content.post-card .post-card-detail .kg-card-markdown {
     align-items: flex-start;
 }
 
-.page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-image-link {
+.page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-image-link {
     position: relative;
     flex: 1 0 50%;
     border-radius: 5px 0 0 5px;
 }
 
-.page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-content {
+.page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-content {
     flex: 1 1 50%;
 }
 
 @media (min-width: 795px) {
-    .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) {
+    .page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) {
         flex: 0 1 90%;
         flex-direction: row;
     }
 
-    .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-image-link {
+    .page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-image-link {
         position: relative;
         flex: 1 1 auto;
         border-radius: 5px 0 0 5px;
     }
 
-    .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-image {
+    .page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-image {
         position: absolute;
         width: 100%;
         height: 100%;
     }
 
-    .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-content {
+    .page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-content {
         flex: 0 1 45%;
     }
 
-    .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) h2 {
+    .page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) h2 {
         font-size: 2.6rem;
     }
 
-    .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) p {
+    .page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) p {
         font-size: 1.8rem;
         line-height: 1.55em;
     }
 
-    .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-content-link {
+    .page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-content-link {
         padding: 30px 40px 0;
     }
 
-    .page-template.page-portfolio .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-meta {
+    .page-template.page-certificates .post-feed .portfolio-overlay-content.post-card:not(.no-image) .post-card-meta {
         padding: 0 40px 30px;
     }
 }
 
-.page-template.page-portfolio .site-header:after {
+.page-template.page-certificates .site-header:after {
     display: none;
 }
 
