@@ -74,14 +74,14 @@ production stylesheet in assets/built/urdu.css
 /* 6. Post Feed
 /* ---------------------------------------------------------- */
 
-.post-card-title {
-  margin-top: 0;
-  font-size: 2.2em;
+.post-card-title.urdu {
+  margin-top: 0.5em;
+  font-size: 2.5em;
   font-weight: normal;
 }
 
-.post-card-excerpt .urdu p {
-  font-size: 1.4em;
+.post-card-excerpt.urdu p {
+  font-size: 1.3em;
   line-height: 1.6em;
 }
 
