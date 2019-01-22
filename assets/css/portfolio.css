@@ -90,6 +90,10 @@ production stylesheet in assets/built/screen.css
     transition: all 0.5s ease;*/
 }
 
+.page-template.page-portfolio .post-card .post-card-image {
+    background-size: cover;
+}
+
 .page-template.page-portfolio .post-card-tags {
     color: color(var(--green) l(-25%));
 }
@@ -119,7 +123,7 @@ production stylesheet in assets/built/screen.css
     flex: 0 1 90%;
 }
 
-.page-template.page-portfolio .portfolio-overlay-content.post-card .post-card-detail .kg-card-markdown {
+.page-template.page-portfolio .portfolio-overlay-content.post-card .post-card-detail {
     align-items: flex-start;
 }
 

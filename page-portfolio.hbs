@@ -22,7 +22,7 @@ into the {body} of the default.hbs template --}}
 
         <div class="post-feed">
             
-            {{#get "posts" limit="all" include="author,tags" filter="tags:{{primary_tag.slug}}+id:-{{id}}+page:true"}}
+            {{#get "posts" limit="all" include="authors,tags" filter="tags:{{primary_tag.slug}}+id:-{{id}}+page:true"}}
             {{#foreach posts}}
 
                 {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
