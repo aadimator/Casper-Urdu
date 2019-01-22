@@ -22,8 +22,8 @@ into the {body} of the default.hbs template --}}
 
         <div class="post-feed">
             
-            {{#get "posts" limit="all" include="authors,tags" filter="tags:{{primary_tag.slug}}+id:-{{id}}+page:true"}}
-            {{#foreach posts}}
+            {{#get "pages" limit="all" include="authors,tags" filter="tags:{{primary_tag.slug}}+id:-{{id}}+page:true"}}
+            {{#foreach pages}}
 
                 {{!-- The tag below includes the markup for each post - partials/post-card.hbs --}}
                 {{> "portfolio-card"}}
